@@ -14,10 +14,10 @@
 
 
 <dl class="dl-horizontal">
-	<dt>Nome / Razão Social:</dt>
+	<dt>Nome:</dt>
 	<dd><?php echo $customer['name']; ?></dd>
 
-	<dt>CPF / CNPJ:</dt>
+	<dt>CPF:</dt>
 	<dd><?php echo $customer['cpf_cnpj']; ?></dd>
 
 	<dt>Data de Nascimento:</dt>
@@ -39,20 +39,20 @@
 </dl>
 
 <dl class="dl-horizontal">		
-	<dt>Cidade:</dt>		
-	<dd><?php echo $customer['city']; ?></dd>	
+<!-- 	<dt>Cidade:</dt>		
+	<dd><?php echo $customer['city']; ?></dd>	 -->
 
-	<dt>Telefone:</dt>		
-	<dd><?php echo $customer['phone']; ?></dd>	
+<!-- 	<dt>Telefone:</dt>		
+	<dd><?php echo $customer['phone']; ?></dd>	 -->
 
 	<dt>Celular:</dt>		
 	<dd><?php echo $customer['mobile']; ?></dd>	
 
-	<dt>UF:</dt>		
+<!-- 	<dt>UF:</dt>		
 	<dd><?php echo $customer['state']; ?></dd>	
 
 	<dt>Inscrição Estadual:</dt>		
-	<dd><?php echo $customer['ie']; ?></dd>	
+	<dd><?php echo $customer['ie']; ?></dd>	 -->
 </dl>
 
 <div id="actions" class="row">

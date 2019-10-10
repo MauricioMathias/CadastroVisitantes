@@ -32,8 +32,8 @@
 	<tr>
 		<th>ID</th>
 		<th width="30%">Nome</th>
-		<th>CPF/CNPJ</th>
-		<th>Telefone</th>
+		<th>CPF</th>
+		<th>Celular</th>
 		<th>Atualizado em</th>
 		<th>Opções</th>
 	</tr>

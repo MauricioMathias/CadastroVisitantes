@@ -43,19 +43,19 @@ include(HEADER_TEMPLATE);
         </div>	  
     </div>	  
     <div class="row">	    
-        <div class="form-group col-md-3">	      
+        <!-- <div class="form-group col-md-3">	      
             <label for="campo1">Município</label>	      
             <input type="text" class="form-control" name="customer['city']" value="<?php echo $customer['city']; ?>">	    
         </div>	
         <div class="form-group col-md-2">	      
             <label for="campo2">Telefone</label>	      
             <input type="text" class="form-control" name="customer['phone']" value="<?php echo $customer['phone']; ?>">	    
-        </div>	
+        </div> -->	
         <div class="form-group col-md-2">	      
             <label for="campo3">Celular</label>	      
             <input type="text" class="form-control" name="customer['mobile']" value="<?php echo $customer['mobile']; ?>">	    
         </div>	
-        <div class="form-group col-md-1">	      
+        <!-- <div class="form-group col-md-1">	      
             <label for="campo3">UF</label>	      
             <input type="text" class="form-control" name="customer['state']" value="<?php echo $customer['state']; ?>">	    
         </div>	
@@ -66,7 +66,7 @@ include(HEADER_TEMPLATE);
         <div class="form-group col-md-2">	      
             <label for="campo3">UF</label>	      
             <input type="text" class="form-control">	    
-        </div>	  
+        </div> -->	  
     </div>	  
     <div id="actions" class="row">	    
         <div class="col-md-12">	      
