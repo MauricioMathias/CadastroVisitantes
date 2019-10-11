@@ -17,7 +17,7 @@
 					<i class="fa fa-plus fa-5x"></i>
 				</div>
 				<div class="col-xs-12 text-center">
-					<p>Novo Cliente</p>
+					<p>Novo Cadastro</p>
 				</div>
 			</div>
 		</a>
@@ -29,7 +29,7 @@
 					<i class="fa fa-user fa-5x"></i>
 				</div>
 				<div class="col-xs-12 text-center">
-					<p>Clientes</p>
+					<p>Cadastros</p>
 				</div>
 			</div>
 		</a>

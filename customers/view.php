@@ -48,6 +48,9 @@
 	<dt>Celular:</dt>		
 	<dd><?php echo $customer['mobile']; ?></dd>	
 
+	<dt>Motivo:</dt>
+	<dd><?php echo $customer['motive']; ?></dd>
+
 <!-- 	<dt>UF:</dt>		
 	<dd><?php echo $customer['state']; ?></dd>	
 

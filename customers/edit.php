@@ -12,11 +12,11 @@ include(HEADER_TEMPLATE);
     <hr />	
     <div class="row">	
         <div class="form-group col-md-7">	
-            <label for="name">Nome / Razão Social</label>	   
+            <label for="name">Nome</label>	   
             <input type="text" class="form-control" name="customer['name']" value="<?php echo $customer['name']; ?>">
         </div>	
         <div class="form-group col-md-3">
-            <label for="campo2">CNPJ / CPF</label>
+            <label for="campo2">CPF</label>
             <input type="text" class="form-control" name="customer['cpf_cnpj']" value="<?php echo $customer['cpf_cnpj']; ?>">	    
         </div>	
         <div class="form-group col-md-2">	
@@ -55,6 +55,11 @@ include(HEADER_TEMPLATE);
             <label for="campo3">Celular</label>	      
             <input type="text" class="form-control" name="customer['mobile']" value="<?php echo $customer['mobile']; ?>">	    
         </div>	
+
+        <div class="form-group col-md-7">
+            <label for="campo3">Motivo da Visita</label>
+            <input type="text" class="form-control" name="customer['motive']" value="<?php echo $customer['motive']; ?>">
+        </div>
         <!-- <div class="form-group col-md-1">	      
             <label for="campo3">UF</label>	      
             <input type="text" class="form-control" name="customer['state']" value="<?php echo $customer['state']; ?>">	    

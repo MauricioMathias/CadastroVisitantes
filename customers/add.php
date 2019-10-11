@@ -60,6 +60,11 @@
 			<input type="text" class="form-control" name="customer['mobile']">
 		</div>
 
+		<div class="form-group col-md-7">
+			<label for="campo1">Motivo do contato</label>
+			<input type="text" class="form-control" name="customer['motive']">
+		</div>
+
 		<!-- <div class="form-group col-md-1">
 			<label for="campo3">UF</label>
 			<input type="text" class="form-control" name="customer['state']">
