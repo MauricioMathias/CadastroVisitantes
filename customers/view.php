@@ -39,10 +39,10 @@
 </dl>
 
 <dl class="dl-horizontal">		
-<!-- 	<dt>Cidade:</dt>		
+<!-- <dt>Cidade:</dt>		
 	<dd><?php echo $customer['city']; ?></dd>	 -->
 
-<!-- 	<dt>Telefone:</dt>		
+<!-- <dt>Telefone:</dt>		
 	<dd><?php echo $customer['phone']; ?></dd>	 -->
 
 	<dt>Celular:</dt>		
@@ -51,7 +51,7 @@
 	<dt>Motivo:</dt>
 	<dd><?php echo $customer['motive']; ?></dd>
 
-<!-- 	<dt>UF:</dt>		
+<!-- <dt>UF:</dt>		
 	<dd><?php echo $customer['state']; ?></dd>	
 
 	<dt>Inscrição Estadual:</dt>		

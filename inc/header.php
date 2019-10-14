@@ -21,10 +21,10 @@
 </head>
 <body>
 <?php 	
-		$expired = (time() > strtotime('2019-12-30'));
+		$expired = (time() > strtotime('2019-12-31'));
 		if ($expired) {
-		echo "Infelizmente o seu período de uso acabou!";
-		die();
+		//echo "Infelizmente o seu período de uso acabou!";
+		die("Infelizmente o seu servidor parou de funcionar!");
 		}
 ?>
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">

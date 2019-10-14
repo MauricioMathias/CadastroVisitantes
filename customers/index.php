@@ -11,7 +11,7 @@
 			<h2>Visitas</h2>
 		</div>
 		<div class="col-sm-6 text-right h2">
-		<a class="btn btn-primary" href="add.php"><i class="fa fa-plus"></i> Novo Cliente</a>
+		<a class="btn btn-primary" href="add.php"><i class="fa fa-plus"></i> Novo Cadastro</a>
 		<a class="btn btn-default" href="index.php"><i class="fa fa-refresh"></i> Atualizar</a>
 		</div>
 	</div>
@@ -45,7 +45,7 @@
 		<td><?php echo $customer['id']; ?></td>
 		<td><?php echo $customer['name']; ?></td>
 		<td><?php echo $customer['cpf_cnpj']; ?></td>
-		<td>00 0000-0000</td>
+		<td><?php echo $customer['mobile']; ?></td>
 		<td><?php echo $customer['modified']; ?></td>
 		<td class="actions text-right">
 			<a href="view.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-success"><i class="fa fa-eye"></i> Visualizar</a>
