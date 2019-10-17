@@ -23,7 +23,7 @@
 		</a>
 	</div>
 	<div class="col-xs-6 col-sm-3 col-md-2">
-		<a href="customers" class="btn btn-default">
+		<a href="customers/index.php" class="btn btn-default">
 			<div class="row">
 				<div class="col-xs-12 text-center">
 					<i class="fa fa-user fa-5x"></i>
